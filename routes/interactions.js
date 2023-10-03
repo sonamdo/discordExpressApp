@@ -36,7 +36,7 @@ router.post('/', async function (req, res) {
         return res.send({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: 'Ginty Vacation: July 9 - August 19',
+            content: 'Ginty has nothing scheduled at the moment',
           },
         });
       }
